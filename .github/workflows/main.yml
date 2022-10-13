@@ -34,7 +34,7 @@ jobs:
       - name: Install app dependencies and build web
         run: |
           cargo install trunk
-          rustup target add wasm32-unknow-unknown
+          rustup target add wasm32-unknown-unknown
 
       - name: Build the app
         uses: tauri-apps/tauri-action@v0
